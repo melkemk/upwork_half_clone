@@ -1,0 +1,94 @@
+/*Header css start*/
+
+.header {
+  font-size: 1.4rem;
+  position: fixed;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: var(--white);
+
+  z-index: 101;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left img {
+  height: 2.5rem;
+}
+
+.header_left_list {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.header_left_list_item {
+  display: flex;
+  align-items: center;
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.header_left_list_item img {
+  width: 12px;
+  margin-left: 0.5rem;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right_form {
+  position: relative;
+  width: var(--input-form-width);
+}
+
+.header_right_form input {
+  height: var(--input-height);
+  border-radius: var(--input-radius);
+  border: 1px solid var(--grey-light);
+  outline: none;
+  width: 100%;
+  padding-left: 5rem;
+}
+
+.header_right_form input::placeholder {
+  font-weight: 700;
+  padding: 0.8rem;
+}
+
+.header_right_form_input_icons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 11px;
+  left: 16px;
+}
+
+.header_right_form_input_icons img:nth-child(1) {
+  width: 20px;
+}
+
+.header_right_form_input_icons img:nth-child(2) {
+  width: 12px;
+}
+
+.header_right_btns {
+  margin-left: 1rem;
+}
+
+/*Header css end*/

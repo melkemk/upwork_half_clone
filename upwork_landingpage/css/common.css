@@ -1,0 +1,65 @@
+/*Common css start*/
+
+.wrapper {
+  width: var(--width);
+  margin: auto;
+}
+
+.btn_primary {
+  background-color: var(--white);
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--grey);
+  border-radius: 20px;
+
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+
+.btn_secondary {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white);
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn_secondary:hover {
+  background-color: var(--primary-dark);
+}
+
+.btn_secondary_outline {
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  /* border: none; */
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn_secondary_outline:hover {
+  background-color: var(--primary-light);
+}
+
+.title-1 {
+  font-size: 80px;
+}
+
+.title-3 {
+  font-size: 24px;
+}
+
+.title-4 {
+  font-size: 16px;
+}
+
+/*Common css end*/

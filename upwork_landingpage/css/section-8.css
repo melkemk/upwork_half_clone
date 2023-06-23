@@ -1,0 +1,67 @@
+/*Section 7 css start*/
+.section_8 {
+  display: flex;
+  padding: 0 15px;
+  padding-top: 100px;
+}
+
+.section_8_left,
+.section_8_middle,
+.section_8_right {
+  flex: 33.33;
+  display: flex;
+  padding: 0 15px;
+  flex-direction: column;
+}
+
+.section_8_left {
+  padding-left: 0;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.section_8_middle {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.section_8_left a,
+.section_8_middle a,
+.section_8_right a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.section_8_left a {
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--grey-light);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.section_8_left a sup {
+  font-size: 10px;
+}
+
+.section_8_left a:first-of-type {
+  color: var(--primary);
+}
+
+.section_8_middle a,
+.section_8_right a {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.section_8_left a:hover,
+.section_8_middle a:hover,
+.section_8_right a:hover {
+  color: var(--blue-dark);
+}
+
+/*Section 7 css end*/

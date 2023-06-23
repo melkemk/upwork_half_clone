@@ -1,0 +1,131 @@
+/*Section 8 css start*/
+.footer {
+  padding: 90px 125px;
+
+  margin-top: 100px;
+
+  background-color: var(--black-green);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_top_list {
+  flex: 25%;
+}
+
+.footer_top_list:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.footer_top_list h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--grey-light);
+}
+
+.footer_top_list ul {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_top_list ul li {
+  margin-bottom: 10px;
+}
+
+.footer_top_list ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--white);
+  text-decoration: none;
+  line-height: 20px;
+  transition: text-decoration 0.2s ease;
+}
+
+.footer_top_list ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer_middle {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  padding: 9px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--grey);
+}
+
+.footer_middle_left,
+.footer_middle_right {
+  display: flex;
+  align-items: center;
+}
+
+.footer_middle_left h5,
+.footer_middle_right h5 {
+  margin-right: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer_middle_left_list,
+.footer_middle_right_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_icons {
+  border-radius: 50%;
+  border: 1px solid var(--grey-light-2);
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.footer_icons:hover {
+  background-color: var(--grey);
+}
+
+.footer_icons img {
+  filter: var(--svg-white);
+
+  height: 14px;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer_bottom p {
+  padding-right: 30px;
+  margin-right: 30px;
+
+  border-right: 1px solid var(--white);
+}
+
+.footer_bottom_list {
+  display: flex;
+  align-items: center;
+}
+
+.footer_bottom_list li {
+  margin-right: 20px;
+}
+/*Section 8 css end*/

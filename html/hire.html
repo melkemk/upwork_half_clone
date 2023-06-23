@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Job</title>
+  <link rel="stylesheet" type="text/css" href="../hire.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create Job</h2>
+    <form action="../php/hire.php" method="POST">
+      <div class="form-group">
+        <label for="title">Job Title</label>
+        <input type="text" id="title" name="job_title" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Job Description</label>
+        <textarea id="description" name="job_description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="category">Job Category</label>
+        <input type="text" id="category" name="job_category">
+      </div>
+      <div class="form-group">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company">
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+      </div>
+      <div class="form-group">
+        <label for="salary">Salary</label>
+        <input type="number" id="salary" name="salary">
+      </div>
+      <!-- Add more fields as needed -->
+      <div class="form-group">
+        <button type="submit">Create Job</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

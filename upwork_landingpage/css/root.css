@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+
+:root {
+  /*color*/
+  --primary: #14a800;
+  --primary-dark: #3c8224;
+  --primary-dark-2: #5e6d55;
+  --primary-dark-3: #e4ebe4;
+  --primary-dark-4: #13544e;
+  --primary-light: #e9f7e5;
+  --primary-light-2: #f2f7f2;
+  --black-green: #001e00;
+  --red: #bc511b;
+  --grey: #5e6d55;
+  --grey-light: #d5e0d5;
+  --grey-light-2: #9aaa97;
+  --grey-light-3: #e4ebe4;
+  --white: #fff;
+  --blue: #1f57c3;
+  --blue-dark: #254d97;
+  --stone-pink: #a18085;
+  --width: 1140px;
+  --input-height: 40px;
+  --input-radius: 20px;
+  --input-form-width: 300px;
+
+  --svg-white: invert(98%) sepia(0%) saturate(0%) hue-rotate(9deg)
+    brightness(103%) contrast(103%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}

@@ -1,0 +1,93 @@
+/*Section 2 css start*/
+.section_2 {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_2_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_2_header h3 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.section_2_header div {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.section_2_header div p {
+  color: var(--grey);
+  margin-right: 0.5rem;
+  margin-bottom: 40px;
+}
+
+.section_2_header div a {
+  text-decoration: none;
+}
+
+.section_2_header div a:hover {
+  text-decoration: underline;
+}
+
+.section_2_categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  grid-column-gap: 30px;
+  column-gap: 30px;
+  grid-row-gap: 15px;
+  row-gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.section_2_categories_tile {
+  width: 261px;
+  height: 134px;
+  background: var(--primary-light-2);
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.section_2_categories_tile:hover {
+  background: var(--primary-dark-3);
+}
+
+.section_2_categories_tile h4 {
+  font-size: 23px;
+  margin-bottom: 2rem;
+}
+
+.section_2_categories_tile div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: var(--primary-dark-2);
+}
+
+.section_2_categories_tile div span:first-of-type {
+  display: flex;
+  align-items: center;
+}
+
+.section_2_categories_tile div span:last-of-type {
+  margin-right: 40px;
+}
+
+.section_2_categories_tile div span:first-of-type img {
+  height: 12px;
+}
+
+/*Section 2 css end*/
